@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header img{
+width: 5vw;
+margin: 2em;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.banner img{
+    width: 95%;
+}
+.banner img{
+    border-radius: 1em;
+    -webkit-box-shadow:  3px 4px 0px 12px rgba(79,79,79,1);
+    -moz-box-shadow: 3px 4px 0px 12px rgba(79,79,79,1);
+    box-shadow: 3px 4px 0px 12px rgba(79,79,79,1);
+    
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    justify-content: space-around
+    
+}
+.bola{
+    width: 10vw;
+    height: 20vh;
+    background-image: url(imagem3.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
